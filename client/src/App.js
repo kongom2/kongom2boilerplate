@@ -11,9 +11,9 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route exact path="/" component={<LandingPage />} />
-            <Route exact path="/login" component={<LoginPage />} />
-            <Route exact path="/register" component={<RegisterPage />} />
+            <Route exact path="/" element={<LandingPage />} />
+            <Route exact path="/login" element={<LoginPage />} />
+            <Route exact path="/register" element={<RegisterPage />} />
           </Routes>
         </div>
       </Router>
